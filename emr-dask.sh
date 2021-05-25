@@ -108,9 +108,9 @@ conda update conda -y
 # added dask and dask-ml
 
 echo "Installing base packages"
-conda install -c conda-forge -y -q dask-yarn>=0.7.0
+conda install -c conda-forge -y -q dask-yarn=0.9
 conda install -c conda-forge -y -q pyarrow=3.0.0
-conda install -c conda-forge -y -q s3fs=0.3.0
+conda install -c conda-forge -y -q s3fs=0.6.0
 conda install -c conda-forge -y -q conda-pack
 conda install -c conda-forge -y -q graphviz
 conda install -c conda-forge -y -q tornado=6.1
